@@ -77,7 +77,7 @@
 
 - **Platform as a Service (PaaS)**
     - Offers hardware and software tools over the internet.
-    - Users focus on application development without managing infrastructure.
+    - **Users focus on application development without managing infrastructure.**
     - Examples: Google App Engine, Azure App Service.
   
 - **Software as a Service (SaaS)**
@@ -86,7 +86,7 @@
     - Examples: Microsoft 365, Salesforce, Google Workspace.
 
 - **Function as a Service (FaaS) / Serverless**
-    - Executes code in response to events without managing servers.
+    - **Executes code in response to events without managing servers.**
     - Scales automatically and charges only for execution time.
     - Examples: AWS Lambda, Azure Functions.
  
