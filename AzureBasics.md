@@ -292,13 +292,15 @@ There are multiple options to manage the availability of your virtual machines i
 Networking is what connects it all. Azure’s global infrastructure keeps your services talking to each other—and to the world.
 - **Virtual Network (VNet)**: Your private network space in the Azure cloud, like a company LAN.
 - **Load Balancer**: Distributes incoming traffic across multiple resources for high availability.
+  - Important components:
+      - Frontend 
 - **Application Gateway**: Layer 7 (HTTP/HTTPS) load balancing with Web Application Firewall (WAF).
 - **VPN Gateway & ExpressRoute**: Secure connections between on-premises and Azure—either over te internet or dedicated private lines.
 - **Azure DNS & Traffic Manager**: Manage domain names and global user routing.
 
 You can round off by mentioning how Azure’s integrated security and monitoring tools (like Network Watcher) help track, analyze, and optimize performance. 
 
-## Module 3: Describe core solutions and management tools on Azure Lessons 
+# Module 3: Describe core solutions and management tools on Azure Lessons 
 - Choose the best AI service for your needs
     - **Azure OpenAI Service**
           - **Best For:** Natural language understanding and generation
@@ -319,15 +321,15 @@ You can round off by mentioning how Azure’s integrated security and monitoring
 - Choose the best monitoring service for visibility, insight, and outage mitigation
     - Azure Monitor is the centralized monitoring service in Azure that provides full-stack observability across applications, infrastructure, and network
       resources.
-## Module 4: Describe general security and network security features Lessons 
+# Module 4: Describe general security and network security features Lessons 
 • Protect against security threats on Azure 
 • Secure network connectivity on Azure 
 
-## Module 5: Describe identity, governance, privacy, and compliance features Lessons 
+# Module 5: Describe identity, governance, privacy, and compliance features Lessons 
 • Secure access to your applications by using Azure identity services 
 • Build a cloud governance strategy on Azure 
 • Examine privacy, compliance, and data protection standards on Azure 
 
-## Module 6: Describe Azure cost management and service level agreements Lessons 
+# Module 6: Describe Azure cost management and service level agreements Lessons 
 • Plan and manage your Azure costs 
 • Choose the right Azure services by examining SLAs and service lifecycle
