@@ -322,9 +322,44 @@ You can round off by mentioning how Azure’s integrated security and monitoring
     - Azure Monitor is the centralized monitoring service in Azure that provides full-stack observability across applications, infrastructure, and network
       resources.
 # Module 4: Describe general security and network security features Lessons 
-• Protect against security threats on Azure 
-• Secure network connectivity on Azure 
+- Protect against security threats on Azure
+  - Key Concepts
+    - Shared Responsibility Model: Understand what security aspects are managed by Microsoft vs. the customer.
+    - Azure Security Center / Microsoft Defender for Cloud:
+      - Threat detection and response
+      - Security posture management
+    - Role-Based Access Control (RBAC):
+      - Assigning least privilege access
+      - Managing roles and permissions
+    - Azure Policy:
+      - Enforcing organizational standards
+      - Compliance tracking
+    - Microsoft Entra ID (formerly Azure AD):
+      - Identity protection
+      - Multi-Factor Authentication (MFA)
+      - Conditional Access policies
+    - Key Vault:
+      - Securely storing secrets, keys, and certificates
 
+- Secure network connectivity on Azure 
+  - Key Concepts
+    - Virtual Networks (VNets):
+    - Network segmentation
+    - Subnets and IP addressing
+  - Network Security Groups (NSGs):
+    - Controlling inbound/outbound traffic
+    - Rule-based access control
+  - Azure Firewall:
+    - Stateful packet inspection
+    - Threat intelligence-based filtering
+  - Azure DDoS Protection:
+    - Mitigating distributed denial-of-service attacks
+    - Private Endpoints & Service Endpoints:
+    - Secure access to Azure services over private IPs
+  - VPN Gateway & ExpressRoute:
+    - Secure hybrid connectivity
+    - Site-to-site and point-to-site VPNs
+    
 # Module 5: Describe identity, governance, privacy, and compliance features Lessons 
 • Secure access to your applications by using Azure identity services 
 • Build a cloud governance strategy on Azure 
