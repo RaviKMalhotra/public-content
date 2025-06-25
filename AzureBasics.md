@@ -282,7 +282,18 @@ There are multiple options to manage the availability of your virtual machines i
 
 # Explore Azure Storage services
 - Storing data is just the beginning—Azure makes it secure, scalable, and ready for action.
+- only lowercase letters accepted.
+- Storage primary serices include: Blob, File, Table and Queue.
+- Performance Tab has 2 options: Standard and Premium.
+- Redundancy has options:
+  - LRS - Locally Redundant Storage
+  - ZRS - Zone Redundant Storage
+  - GRS - Region Redundant Storage
+- Go to Storage Accounts, and click on Create.
+- 
 - **Blob Storage**: For unstructured data like media files, backups, or logs.
+  - 
+  
 - **File Storage**: Cloud-based SMB file shares accessible via standard protocols.
 - **Queue Storage**: Message storage for asynchronous app workflows.
 - **Disk Storage**: High-performance block storage for VMs.
