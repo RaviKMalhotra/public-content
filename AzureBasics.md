@@ -289,6 +289,11 @@ There are multiple options to manage the availability of your virtual machines i
   - LRS - Locally Redundant Storage
   - ZRS - Zone Redundant Storage
   - GRS - Region Redundant Storage
+- Enable Soft Delete for blobs: set to 7 days by default. 
+- Enable soft Delete for Containers: Set to 7 days by default. It is set to 7 days. File will be permanently deleted after 7 days, and it can be recovered in
+  within 7 days.
+- Enable soft Delete for File Shares:
+- 
 - Go to Storage Accounts, and click on Create.
 - 
 - **Blob Storage**: For unstructured data like media files, backups, or logs.
@@ -316,6 +321,11 @@ You can round off by mentioning how Azure’s integrated security and monitoring
     - **Azure OpenAI Service**
           - **Best For:** Natural language understanding and generation
           - **Example Use Cases:** Chatbots, content creation, summarization, code generation
+          - Azure OpenAI service provides REST API access to OpenAI's powerfull language model including o1, o1-mini, GPT-4o, GPT-4o mini, GPT-4 Turbo with
+            Vision, GPT-4, GPT-3.5.
+          - These models can be easily adapted to your specific task including but not limited to content generation, summarization, image understaning
+          - semantic search, and natural language to code translation.
+      
     - **Azure Cognitive Services**
           - Best For: Pre-built AI models for vision, speech, language, and decision-making	
           - Example Use Cases: Image analysis, speech-to-text, translation, sentiment analysis
