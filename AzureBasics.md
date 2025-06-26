@@ -335,9 +335,28 @@ You can round off by mentioning how Azure’s integrated security and monitoring
     - **Azure Bot Services**
             - Best For: Creating intelligent, conversational bots	
           - Example Use Cases: Customer support bots, virtual assistants
+          - Azure Bot Services is a managed platform for building, deploying, and managing intelligent bots that interact naturally with users across multiple
+            channels.
+          - **Key Features:**
+          - **Bot Framework SDK:** Build conversational bots using rich tools and libraries.
+          - **Multi-Channel Support:** Deploy bots to Teams, Web Chat, Facebook Messenger, and more.
+          - **AI Integration:** Enhance conversations with Language Understanding (LUIS) and QnA Maker.
+          - **Scalable Hosting:** Automatically scales with demand using Azure infrastructure.
+          - **Security & Compliance:** Enterprise-grade authentication and data protection.
+          - Search for "Azure Bot service" on the azure portal.
+  
     - **Azure Cognitive Search**
           - Best For: AI-powered search over content	
           - Example Use Cases: Enterprise search, document indexing, knowledge mining
+          - Azure Cognitive Search is a cloud-based search service
+          - It enables developers to build rich search experiences over private, heterogeneous content.
+          - **Key Features**
+          - **Full-Text Search:** Fast and scalable search across large datasets.
+          - **AI Enrichment:** Integrates with Cognitive Services to extract insights from raw content (e.g., OCR, entity recognition).
+          - **Indexing:** Supports structured and unstructured data from sources like Azure Blob Storage, SQL, Cosmos DB.
+          - **Faceted Navigation:** Enables filtering and drill-downs for better user experience.
+          - **Security Trimming:** Ensures users see only what they’re authorized to access.
+          - Search for "Azure Cognitive Search" on the azure portal and click create. 
 - Choose the best tools to help organizations build better solutions 
 - Choose the best monitoring service for visibility, insight, and outage mitigation
     - Azure Monitor is the centralized monitoring service in Azure that provides full-stack observability across applications, infrastructure, and network
