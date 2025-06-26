@@ -307,9 +307,11 @@ There are multiple options to manage the availability of your virtual machines i
 ## Explore Azure networking services
 Networking is what connects it all. Azure’s global infrastructure keeps your services talking to each other—and to the world.
 - **Virtual Network (VNet)**: Your private network space in the Azure cloud, like a company LAN.
+- **Bastion:** Azure Bastion provides secure and seamless RDP/SSH connectivity to Azure virtual machines without exposing them to public internet threats. As a fully managed PaaS offering, it strengthens your
+           network security while simplifying access management.
+- **VNET Peerng**: irtual Network (VNet) Peering in Azure enables seamless connectivity between two virtual networks, allowing resources to communicate across VNets with high bandwidth and low latency. It
+                simplifies network architecture by extending private IP communication while maintaining isolation and security boundaries.
 - **Load Balancer**: Distributes incoming traffic across multiple resources for high availability.
-  - Important components:
-      - Frontend 
 - **Application Gateway**: Layer 7 (HTTP/HTTPS) load balancing with Web Application Firewall (WAF).
 - **VPN Gateway & ExpressRoute**: Secure connections between on-premises and Azure—either over te internet or dedicated private lines.
 - **Azure DNS & Traffic Manager**: Manage domain names and global user routing.
