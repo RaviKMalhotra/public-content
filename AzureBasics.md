@@ -424,6 +424,9 @@ https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/
     - **VPN Gateway:**
       - Secure hybrid connectivity
       - Site-to-site and point-to-site VPNs
+      - Site-to-site VPM: As the name implies, it's a secure tunnel between 2 sites, 2 locations, 2 organizations, 2 branches, et...
+      - Point-to-site: This is also known as Remote VPN, in which remote employees can connect to their parent organization using the
+      secure tunnel.
       - > Azure VPN Gateway is a type of virtual network gateway that sends encrypted traffic between an Azure virtual network and an on-premises location over
         > the public Internet. It enables secure cross-premises connectivity and site-to-site, point-to-site, and VNet-to-VNet connections.
       - Key Features of VPN Gateway
