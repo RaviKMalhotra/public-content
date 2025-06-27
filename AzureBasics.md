@@ -400,20 +400,28 @@
       - Mitigating distributed denial-of-service attacks
       - Private Endpoints & Service Endpoints:
       - Secure access to Azure services over private IPs
+    - **VNET Peering:**
+      - VNet Peering allows you to connect two Azure virtual networks seamlessly.
+      - The networks appear as one for connectivity purposes, enabling direct traffic flow using private IP addresses.
+      - Key Features
+        - Low Latency & High Bandwidth: Traffic between peered VNets is routed through the Azure backbone, ensuring fast and reliable communication.
+        - Private Communication: No need for gateways, public IPs, or Internet routing.
+        - Cross-Region Support: Supports both intra-region and global VNet peering.
+        - Non-Transitive: Peering is not transitive—if VNet A is peered with B, and B with C, A cannot communicate with C unless explicitly peered.
     - **VPN Gateway:**
       - Secure hybrid connectivity
       - Site-to-site and point-to-site VPNs
       - > Azure VPN Gateway is a type of virtual network gateway that sends encrypted traffic between an Azure virtual network and an on-premises location over
         > the public Internet. It enables secure cross-premises connectivity and site-to-site, point-to-site, and VNet-to-VNet connections.
       - Key Features of VPN Gateway
-        - Secure Communication: Uses IPsec and IKE protocols to ensure encrypted and secure data transmission.
-        - Multiple Connection Types:
-        - Site-to-Site VPN: Connects entire networks.
-        - Point-to-Site VPN: Connects individual clients to Azure.
-        - VNet-to-VNet VPN: Connects virtual networks within Azure.
-        - High Availability: Supports active-active configurations for improved reliability.
-        - Scalability: Offers different SKUs (Basic, VpnGw1–5, etc.) to match performance and throughput needs.
-        - Integration: Works seamlessly with Azure services like Azure Firewall, Network Security Groups, and ExpressRoute.   
+        - **Secure Communication**: Uses IPsec and IKE protocols to ensure encrypted and secure data transmission.
+        - **Multiple Connection Types**:
+        - **Site-to-Site VPN**: Connects entire networks.
+        - **Point-to-Site VPN**: Connects individual clients to Azure.
+        - **VNet-to-VNet VPN**: Connects virtual networks within Azure.
+        - **High Availability**: Supports active-active configurations for improved reliability.
+        - **Scalability**: Offers different SKUs (Basic, VpnGw1–5, etc.) to match performance and throughput needs.
+        - **Integration**: Works seamlessly with Azure services like Azure Firewall, Network Security Groups, and ExpressRoute.   
 
       - **ExpressRoute:**
         - > Azure ExpressRoute is a service that enables private, dedicated network connectivity between your on-premises infrastructure and Microsoft Azure.
