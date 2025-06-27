@@ -453,19 +453,23 @@
   - Performance commitments
   - Compensation terms for SLA breaches
   - Example: Azure Virtual Machines offer 99.99% SLA with availability sets
+
 - Slide 4: SLA Tiers in Azure
-- 
+- !![image](https://github.com/user-attachments/assets/af20be0c-cb35-4e12-a0de-f7e214cfeb56)
+
 - Slide 5: Service Lifecycle in Azure
-- Preview: Early access, not for production
-General Availability (GA): Fully supported and SLA-backed
-Deprecated/Retired: Scheduled for removal, no new features
+  - Preview: Early access, not for production
+  - General Availability (GA): Fully supported and SLA-backed
+  - Deprecated/Retired: Scheduled for removal, no new features
+
 - Slide 7: Tools to Help You Decide
-Azure Service Health: Tracks outages and planned maintenance
-Azure Advisor: Recommends reliable and cost-effective services
-Azure Updates: Announces lifecycle changes and new features
+  - Azure Service Health: Tracks outages and planned maintenance
+  - Azure Advisor: Recommends reliable and cost-effective services
+  - Azure Updates: Announces lifecycle changes and new features
+
 - Slide 8: Best Practices
-Prefer GA services for production workloads
-Use availability zones and redundancy for high SLA targets
-Monitor service health and subscribe to alerts
-Plan for migration if a service is deprecated
-- 
+  - Prefer GA services for production workloads
+  - Use availability zones and redundancy for high SLA targets
+  - Monitor service health and subscribe to alerts
+  - Plan for migration if a service is deprecated
+
