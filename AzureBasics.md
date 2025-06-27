@@ -400,14 +400,19 @@
       - Mitigating distributed denial-of-service attacks
       - Private Endpoints & Service Endpoints:
       - Secure access to Azure services over private IPs
+      - Azure DDoS Protection is a cloud-native service that helps protect your applications and resources from Distributed Denial of Service (DDoS) attacks.
+      - It works by monitoring traffic patterns and automatically mitigating attacks in real time.
+      - 
+      - 
     - **VNET Peering:**
       - VNet Peering allows you to connect two Azure virtual networks seamlessly.
       - The networks appear as one for connectivity purposes, enabling direct traffic flow using private IP addresses.
       - Key Features
-        - Low Latency & High Bandwidth: Traffic between peered VNets is routed through the Azure backbone, ensuring fast and reliable communication.
-        - Private Communication: No need for gateways, public IPs, or Internet routing.
-        - Cross-Region Support: Supports both intra-region and global VNet peering.
-        - Non-Transitive: Peering is not transitive—if VNet A is peered with B, and B with C, A cannot communicate with C unless explicitly peered.
+        - **Low Latency & High Bandwidth**: Traffic between peered VNets is routed through the Azure backbone, ensuring fast and reliable communication.
+        - **Private Communication**: No need for gateways, public IPs, or Internet routing.
+        - **Cross-Region Support**: Supports both intra-region and global VNet peering.
+        - **Non-Transitive**: Peering is not transitive—if VNet A is peered with B, and B with C, A cannot communicate with C unless explicitly peered.
+          
     - **VPN Gateway:**
       - Secure hybrid connectivity
       - Site-to-site and point-to-site VPNs
