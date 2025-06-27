@@ -400,12 +400,12 @@
       - Mitigating distributed denial-of-service attacks
       - Private Endpoints & Service Endpoints:
       - Secure access to Azure services over private IPs
-    - **VPN Gateway & ExpressRoute:**
+    - **VPN Gateway:**
       - Secure hybrid connectivity
       - Site-to-site and point-to-site VPNs
       - > Azure VPN Gateway is a type of virtual network gateway that sends encrypted traffic between an Azure virtual network and an on-premises location over
         > the public Internet. It enables secure cross-premises connectivity and site-to-site, point-to-site, and VNet-to-VNet connections.
-      - Key Features
+      - Key Features of VPN Gateway
         - Secure Communication: Uses IPsec and IKE protocols to ensure encrypted and secure data transmission.
         - Multiple Connection Types:
         - Site-to-Site VPN: Connects entire networks.
@@ -414,7 +414,17 @@
         - High Availability: Supports active-active configurations for improved reliability.
         - Scalability: Offers different SKUs (Basic, VpnGw1–5, etc.) to match performance and throughput needs.
         - Integration: Works seamlessly with Azure services like Azure Firewall, Network Security Groups, and ExpressRoute.   
-      
+
+      - **ExpressRoute:**
+        - > Azure ExpressRoute is a service that enables private, dedicated network connectivity between your on-premises infrastructure and Microsoft Azure.
+            Unlike VPN Gateway, ExpressRoute does not use the public Internet, offering more reliability, faster speeds, and lower latencies.
+        - Key Features
+          - **Private Connectivity**: Establishes a direct connection to Azure via a connectivity provider.
+          - **High Performance**: Supports bandwidths from 50 Mbps up to 100 Gbps.
+          - **Redundancy & SLA**: Offers built-in redundancy and a financially backed SLA for uptime.
+          - **Global Reach**: Can connect to Microsoft cloud services across regions using ExpressRoute Global Reach.
+          - **Integration**: Works with Azure services like Virtual Networks, Azure Site Recovery, and Microsoft 365 (with limitations).
+            
 # Module 5: Describe identity, governance, privacy, and compliance features Lessons 
 - Secure access to your applications by using Azure identity services 
 - Build a cloud governance strategy on Azure 
