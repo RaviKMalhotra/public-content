@@ -403,6 +403,17 @@
     - **VPN Gateway & ExpressRoute:**
       - Secure hybrid connectivity
       - Site-to-site and point-to-site VPNs
+      - > Azure VPN Gateway is a type of virtual network gateway that sends encrypted traffic between an Azure virtual network and an on-premises location over
+        > the public Internet. It enables secure cross-premises connectivity and site-to-site, point-to-site, and VNet-to-VNet connections.
+      - Key Features
+        - Secure Communication: Uses IPsec and IKE protocols to ensure encrypted and secure data transmission.
+        - Multiple Connection Types:
+        - Site-to-Site VPN: Connects entire networks.
+        - Point-to-Site VPN: Connects individual clients to Azure.
+        - VNet-to-VNet VPN: Connects virtual networks within Azure.
+        - High Availability: Supports active-active configurations for improved reliability.
+        - Scalability: Offers different SKUs (Basic, VpnGw1–5, etc.) to match performance and throughput needs.
+        - Integration: Works seamlessly with Azure services like Azure Firewall, Network Security Groups, and ExpressRoute.   
       
 # Module 5: Describe identity, governance, privacy, and compliance features Lessons 
 - Secure access to your applications by using Azure identity services 
