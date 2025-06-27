@@ -365,97 +365,96 @@
   - Choose the best monitoring service for visibility, insight, and outage mitigation
       - Azure Monitor is the centralized monitoring service in Azure that provides full-stack observability across applications, infrastructure, and network
         resources.
-  # Module 4: Describe general security and network security features Lessons 
-  - Protect against security threats on Azure
-    - Key Concepts
-      - Shared Responsibility Model: Understand what security aspects are managed by Microsoft vs. the customer.
-      - Azure Security Center / Microsoft Defender for Cloud:
+# Module 4: Describe general security and network security features Lessons 
+ - Protect against security threats on Azure
+   - Key Concepts
+      - **Shared Responsibility Model**: Understand what security aspects are managed by Microsoft vs. the customer.
+      - **Azure Security Center / Microsoft Defender for Cloud**:
         - Threat detection and response
         - Security posture management
-      - Role-Based Access Control (RBAC):
+      - **Role-Based Access Control (RBAC):**
         - Assigning least privilege access
         - Managing roles and permissions
-      - Azure Policy:
+      - **Azure Policy:**
         - Enforcing organizational standards
         - Compliance tracking
-      - Microsoft Entra ID (formerly Azure AD):
+      - **Microsoft Entra ID (formerly Azure AD):**
         - Identity protection
         - Multi-Factor Authentication (MFA)
         - Conditional Access policies
-      - Key Vault:
+      - **Key Vault:**
         - Securely storing secrets, keys, and certificates
   
-  - Secure network connectivity on Azure 
+  - **Secure network connectivity on Azure** 
     - Key Concepts
       - Virtual Networks (VNets):
       - Network segmentation
       - Subnets and IP addressing
-    - Network Security Groups (NSGs):
+    - **Network Security Groups (NSGs):**
       - Controlling inbound/outbound traffic
       - Rule-based access control
-    - Azure Firewall:
+    - **Azure Firewall:**
       - Stateful packet inspection
       - Threat intelligence-based filtering
-    - Azure DDoS Protection:
+    - **Azure DDoS Protection:**
       - Mitigating distributed denial-of-service attacks
       - Private Endpoints & Service Endpoints:
       - Secure access to Azure services over private IPs
-    - VPN Gateway & ExpressRoute:
+    - **VPN Gateway & ExpressRoute:**
       - Secure hybrid connectivity
       - Site-to-site and point-to-site VPNs
       
-  # Module 5: Describe identity, governance, privacy, and compliance features Lessons 
-  • Secure access to your applications by using Azure identity services 
-  • Build a cloud governance strategy on Azure 
-  • Examine privacy, compliance, and data protection standards on Azure 
-  - Azure Compliance Offerings
+# Module 5: Describe identity, governance, privacy, and compliance features Lessons 
+- Secure access to your applications by using Azure identity services 
+- Build a cloud governance strategy on Azure 
+- Examine privacy, compliance, and data protection standards on Azure 
+ - Azure Compliance Offerings
   - Over 100 compliance certifications globally
-    - Key standards:
-      - ISO/IEC 27001, 27017, 27018
-      - SOC 1, 2, 3
-      - GDPR, HIPAA, FedRAMP, IRAP
-      - Azure Compliance Documentation Center
-  - Data Protection in Azure
-  -   Encryption at rest and in transit
-Customer-managed keys (CMK)
-Azure Confidential Computing
-Azure Key Vault for secrets and certificates
-  - Privacy Controls in Azure
+  - Key standards:
+    - ISO/IEC 27001, 27017, 27018
+    - SOC 1, 2, 3
+    - GDPR, HIPAA, FedRAMP, IRAP
+    - Azure Compliance Documentation Center
+ - Data Protection in Azure
+  - Encryption at rest and in transit
+  - Customer-managed keys (CMK)
+  - Azure Confidential Computing
+  - Azure Key Vault for secrets and certificates
+- Privacy Controls in Azure
   - Data residency and sovereignty options
-Customer Lockbox for access control
-Data Subject Requests (DSRs) support for GDPR
-Microsoft Priva for privacy risk management
+  - Customer Lockbox for access control
+  - Data Subject Requests (DSRs) support for GDPR
+- Microsoft Priva for privacy risk management
   - Azure Policy and Compliance Manager
   - Define and enforce compliance policies
-Monitor compliance posture
-Automate remediation of non-compliant resources
-  - Shared Responsibility Model
-  - 
-  # Module 6: Describe Azure cost management and service level agreements Lessons 
-  • Plan a
-  nd manage your Azure costs
+  - Monitor compliance posture
+  - Automate remediation of non-compliant resources
+- Shared Responsibility Model
+   
+# Module 6: Describe Azure cost management and service level agreements Lessons 
+- Plan a  nd manage your Azure costs
   - Why Cost Management Matters
-  -   Cloud costs can spiral without governance
-      Budget overruns impact profitability
+  - Cloud costs can spiral without governance
+  - Budget overruns impact profitability
       Cost visibility enables better planning and accountability
   - Azure Cost Management + Billing Overview
   - 
 - Choose the right Azure services by examining SLAs and service lifecycle
 - SLAs and lifecycle status are critical for service selection
-Azure provides transparency and tools to guide decisions
-Make choices that align with your reliability and support goals
-  - Slide 2: Why SLAs and Service Lifecycle Matter
-  - Ensures rel
-  - iability, availability, and supportability
-Helps avoid technical debt and service deprecation risks
-Aligns service choices with business continuity goals
+  - Azure provides transparency and tools to guide decisions
+  - Make choices that align with your reliability and support goals
+- Slide 2: Why SLAs and Service Lifecycle Matter
+  - Ensures reliability, availability, and supportability
+  - Helps avoid technical debt and service deprecation risks
+  - Aligns service choices with business continuity goals
 - Slide 3: What is an SLA?
-Service Level Agreement (SLA) defines:
-Uptime guarantees (e.g., 99.9%)
-Performance commitments
-Compensation terms for SLA breaches
-Example: Azure Virtual Machines offer 99.99% SLA with availability sets
+  - Service Level Agreement (SLA) defines:
+  - Uptime guarantees (e.g., 99.9%)
+  - Performance commitments
+  - Compensation terms for SLA breaches
+  - Example: Azure Virtual Machines offer 99.99% SLA with availability sets
 - Slide 4: SLA Tiers in Azure
+- 
 - Slide 5: Service Lifecycle in Azure
 - Preview: Early access, not for production
 General Availability (GA): Fully supported and SLA-backed
