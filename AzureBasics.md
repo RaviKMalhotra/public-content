@@ -416,10 +416,57 @@
       - GDPR, HIPAA, FedRAMP, IRAP
       - Azure Compliance Documentation Center
   - Data Protection in Azure
+  -   Encryption at rest and in transit
+Customer-managed keys (CMK)
+Azure Confidential Computing
+Azure Key Vault for secrets and certificates
   - Privacy Controls in Azure
+  - Data residency and sovereignty options
+Customer Lockbox for access control
+Data Subject Requests (DSRs) support for GDPR
+Microsoft Priva for privacy risk management
   - Azure Policy and Compliance Manager
+  - Define and enforce compliance policies
+Monitor compliance posture
+Automate remediation of non-compliant resources
   - Shared Responsibility Model
   - 
   # Module 6: Describe Azure cost management and service level agreements Lessons 
-  • Plan and manage your Azure costs 
-  • Choose the right Azure services by examining SLAs and service lifecycle
+  • Plan a
+  nd manage your Azure costs
+  - Why Cost Management Matters
+  -   Cloud costs can spiral without governance
+      Budget overruns impact profitability
+      Cost visibility enables better planning and accountability
+  - Azure Cost Management + Billing Overview
+  - 
+- Choose the right Azure services by examining SLAs and service lifecycle
+- SLAs and lifecycle status are critical for service selection
+Azure provides transparency and tools to guide decisions
+Make choices that align with your reliability and support goals
+  - Slide 2: Why SLAs and Service Lifecycle Matter
+  - Ensures rel
+  - iability, availability, and supportability
+Helps avoid technical debt and service deprecation risks
+Aligns service choices with business continuity goals
+- Slide 3: What is an SLA?
+Service Level Agreement (SLA) defines:
+Uptime guarantees (e.g., 99.9%)
+Performance commitments
+Compensation terms for SLA breaches
+Example: Azure Virtual Machines offer 99.99% SLA with availability sets
+- Slide 4: SLA Tiers in Azure
+- Slide 5: Service Lifecycle in Azure
+- Preview: Early access, not for production
+General Availability (GA): Fully supported and SLA-backed
+Deprecated/Retired: Scheduled for removal, no new features
+- Slide 7: Tools to Help You Decide
+Azure Service Health: Tracks outages and planned maintenance
+Azure Advisor: Recommends reliable and cost-effective services
+Azure Updates: Announces lifecycle changes and new features
+- Slide 8: Best Practices
+Prefer GA services for production workloads
+Use availability zones and redundancy for high SLA targets
+Monitor service health and subscribe to alerts
+Plan for migration if a service is deprecated
+- 
