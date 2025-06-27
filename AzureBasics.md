@@ -408,7 +408,18 @@
   • Secure access to your applications by using Azure identity services 
   • Build a cloud governance strategy on Azure 
   • Examine privacy, compliance, and data protection standards on Azure 
-  
+  - Azure Compliance Offerings
+  - Over 100 compliance certifications globally
+    - Key standards:
+      - ISO/IEC 27001, 27017, 27018
+      - SOC 1, 2, 3
+      - GDPR, HIPAA, FedRAMP, IRAP
+      - Azure Compliance Documentation Center
+  - Data Protection in Azure
+  - Privacy Controls in Azure
+  - Azure Policy and Compliance Manager
+  - Shared Responsibility Model
+  - 
   # Module 6: Describe Azure cost management and service level agreements Lessons 
   • Plan and manage your Azure costs 
   • Choose the right Azure services by examining SLAs and service lifecycle
