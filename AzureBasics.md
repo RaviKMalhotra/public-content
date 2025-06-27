@@ -436,38 +436,38 @@
   - Why Cost Management Matters
   - Cloud costs can spiral without governance
   - Budget overruns impact profitability
-      Cost visibility enables better planning and accountability
-  - Azure Cost Management + Billing Overview
-  - 
+    - Cost visibility enables better planning and accountability
+    - Azure Cost Management + Billing Overview
+  
 - Choose the right Azure services by examining SLAs and service lifecycle
 - SLAs and lifecycle status are critical for service selection
   - Azure provides transparency and tools to guide decisions
   - Make choices that align with your reliability and support goals
-- Slide 2: Why SLAs and Service Lifecycle Matter
+- Why SLAs and Service Lifecycle Matter
   - Ensures reliability, availability, and supportability
   - Helps avoid technical debt and service deprecation risks
   - Aligns service choices with business continuity goals
-- Slide 3: What is an SLA?
+- What is an SLA?
   - Service Level Agreement (SLA) defines:
   - Uptime guarantees (e.g., 99.9%)
   - Performance commitments
   - Compensation terms for SLA breaches
   - Example: Azure Virtual Machines offer 99.99% SLA with availability sets
 
-- Slide 4: SLA Tiers in Azure
+- SLA Tiers in Azure
 - !![image](https://github.com/user-attachments/assets/af20be0c-cb35-4e12-a0de-f7e214cfeb56)
 
-- Slide 5: Service Lifecycle in Azure
+- Service Lifecycle in Azure
   - Preview: Early access, not for production
   - General Availability (GA): Fully supported and SLA-backed
   - Deprecated/Retired: Scheduled for removal, no new features
 
-- Slide 7: Tools to Help You Decide
+- Tools to Help You Decide
   - Azure Service Health: Tracks outages and planned maintenance
   - Azure Advisor: Recommends reliable and cost-effective services
   - Azure Updates: Announces lifecycle changes and new features
 
-- Slide 8: Best Practices
+- Best Practices
   - Prefer GA services for production workloads
   - Use availability zones and redundancy for high SLA targets
   - Monitor service health and subscribe to alerts
