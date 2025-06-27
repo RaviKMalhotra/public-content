@@ -5,7 +5,13 @@
 https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?source=recommendations&practice-assessment-type=certification#certification-practice-for-the-exam
 ```
 - click on the 'Take the practice assessment'.
-- 
+- Scenario # 1
+- disassociate the public IPs from both the VMs
+- configure a subnet for Bastion Host in the first VNET
+- configure the Azure Bastion Host service in this first VNET
+- Now, should he be able to connect to the VM in the **second VNET** over Internet using RDP?
+   yes - why? because we have a VNET peering now?
+  
 
   
   
