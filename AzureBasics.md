@@ -2,8 +2,10 @@
 
  # Exam and Certification
  ```
-(https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900)
+https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?source=recommendations&practice-assessment-type=certification#certification-practice-for-the-exam
 ```
+- click on the 'Take the practice assessment'.
+- 
 
   
   
